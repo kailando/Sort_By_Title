@@ -35,7 +35,7 @@ class ReorderController extends BaseController
                 return $ca <=> $cb;
             }
 
-            return strcmp($a['title'] ?? '', $b['title'] ?? '');
+            return strcmp($ca['title'] ?? '', $cb['title'] ?? '');
         });
 
         // Persist by rewriting positions
