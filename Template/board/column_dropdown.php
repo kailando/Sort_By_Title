@@ -18,7 +18,7 @@ if ($projectId <= 0 || $columnId <= 0 || $swimlaneId <= 0) {
 
 $url = '/?controller=ReorderController'
 . '&action=alphaSort'
-. '&plugin=AlphaTitleReorder'
+. '&plugin=Sort_By_Title'
 . '&project_id=' . $projectId
 . '&column_id=' . $columnId
 . '&swimlane_id=' . $swimlaneId;
